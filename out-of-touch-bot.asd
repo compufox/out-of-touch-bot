@@ -6,7 +6,7 @@
   :license  "NPLv1+"
   :version "0.0.1"
   :serial t
-  :depends-on (#:glacier)
+  :depends-on (#:glacier #:with-user-abort)
   :components ((:file "package")
                (:file "out-of-touch-bot"))
   :entry-point "out-of-touch-bot:main"
