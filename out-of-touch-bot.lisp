@@ -11,7 +11,7 @@
           (run-bot ((make-instance 'mastodon-bot :config-file "config.file")
                     :with-websocket nil)
             (on (:thursday :at "11:00")
-              (post "its out of touch thursdays!" :visibility :public :media "video.mp4"))))
+              (post "its out of touch thursdays!" :visibility :public :media #P"video.mp4"))))
     (user-abort ()
       (uiop:quit))
     (error (e)
