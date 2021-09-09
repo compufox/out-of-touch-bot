@@ -3,8 +3,7 @@
 (in-package #:out-of-touch-bot)
 
 (defun choose (c1 c2)
-  (let ((chance (random 2)))
-    (if (zerop chance) c1 c2)))
+  (if (> (random 1.0) .25) c1 c2))
 
 (defun main ()
   (let ((video2 (uiop:file-exists-p "video2.mp4")))
