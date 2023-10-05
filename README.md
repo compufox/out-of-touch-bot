@@ -1,3 +1,5 @@
+# ARCHIVED. PLEASE SEE https://github.com/compufox/media-bot
+
 # out-of-touch-bot
 ### _ava fox_
 
