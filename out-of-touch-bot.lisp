@@ -21,7 +21,7 @@
                 (post "its out of touch thursdays!" :visibility :public :media 
                       (if video2 
                           (choose #P"video.mp4" #P"video2.mp4")
-                          `(#P"video.mp4" ,*alt-text1*))))))
+                          `((#P"video.mp4" ,*alt-text1*)))))))
       (user-abort ()
         (uiop:quit))
       (error (e)
